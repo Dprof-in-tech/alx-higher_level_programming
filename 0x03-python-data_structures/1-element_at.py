@@ -4,9 +4,9 @@ def element_at(my_list, idx):
     int_idx = integers[idx]
     if idx < 0:
         return None
-    elif idx > len(integers):
+    elif idx > len(my_list):
         return None
-    elif int_idx > len(integers):
+    elif idx > len(integers):
         return None
     else:
         return int_idx
