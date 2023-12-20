@@ -2,6 +2,9 @@
 
 
 class Square:
-    """This is an empty class to define a square
+    """This is a class to define a square
+    
     """
-    pass
+
+    def __init__(self):
+        pass
