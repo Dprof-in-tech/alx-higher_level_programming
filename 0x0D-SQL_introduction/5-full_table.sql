@@ -1,4 +1,4 @@
---SQL query to describe a database table without using the describe or explain keyword
+-- SQL query to describe a database table without using the describe or explain keyword
 
 
 USE information_schema;
