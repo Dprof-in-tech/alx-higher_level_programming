@@ -1,5 +1,3 @@
---SQL Query to list all values from a table column
-
-USE hbtn_0c_0;
+-- SQL Query to list all values from a table column
 
 SELECT * FROM first_table;
