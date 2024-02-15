@@ -1,7 +1,4 @@
 -- SQL Query to compute the average of all scores in the records
 
-ALTER TABLE second_table ADD COLUMN average FLOAT;
+WITH average AS (SELECT AVG(score) FROM second_table) UPDATE second_table SET average = average;
 
-SET @avg_score := (SELECT AVG(score) FROM second_table);
-
-UPDATE second_table SET average = @avg_score;
